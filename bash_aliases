@@ -1,0 +1,12 @@
+# git shortcuts
+alias gd='git diff'
+alias ga='git add .'
+alias gs='git status'
+alias gl='git log --oneline --graph --decorate'
+alias gb='git branch'
+alias gp='git push'
+alias gu='git pull'
+alias gc='git commit'
+alias gcm='git commit -m'
+alias gi='git init'
+alias gcl='git clone'

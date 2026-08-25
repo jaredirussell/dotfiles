@@ -15,7 +15,7 @@ set wrap
 
 set tabstop=4
 set shiftwidth=2
-set softtabstop=2
+"set softtabstop=2
 set autoindent
 set copyindent
 set expandtab

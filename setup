@@ -3,12 +3,12 @@
 # Description: Link dotfile preferences to home directory
 
 
-echo "Creating .config directory if it does not exist..."
 mkdir -p ~/.config
 
 echo "Linking dotfiles to home directory..."
 ln -sf ~/dotfiles/bashrc ~/.bashrc
 ln -sf ~/dotfiles/vimrc ~/.vimrc
 ln -sf ~/dotfiles/starship.toml ~/.config/starship.toml
+ln -sf ~/dotfiles/bash_aliases ~/.bash_aliases
 
 echo "Dotfiles linked"
