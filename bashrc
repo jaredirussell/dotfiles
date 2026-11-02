@@ -120,3 +120,9 @@ export PATH="$HOME/raven/.local/bin:$PATH"
 eval "$(starship init bash)"
 
 #eval "$(ssh-agent -s)"
+
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
+export PATH="/home/raven/.rd/bin:$PATH"
+### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv bash)"
