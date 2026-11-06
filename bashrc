@@ -126,3 +126,6 @@ export PATH="/home/raven/.rd/bin:$PATH"
 ### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv bash)"
+source /etc/bash_completion
+source <(kubectl completion bash)
+complete -o default -F __start_kubectl k

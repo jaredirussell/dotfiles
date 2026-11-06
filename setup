@@ -11,4 +11,8 @@ ln -sf ~/dotfiles/vimrc ~/.vimrc
 ln -sf ~/dotfiles/starship.toml ~/.config/starship.toml
 ln -sf ~/dotfiles/bash_aliases ~/.bash_aliases
 
-echo "Dotfiles linked"
+if [ $? -ne 0 ]; then
+    echo "Linking failed."
+else
+    echo "Dotfiles linked"
+fi
